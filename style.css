@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #e9e9e5;
+  overflow: hidden;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+.nav-bar h4 {
+  color: rgb(17, 17, 17);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 45px;
+}
+.nav-bar button {
+  position: absolute;
+  top: -15px;
+ right: -450px;
+ padding: 8px 8px;
+ border-radius: 50%;
+ border: none;
+ background-color:antiquewhite;
+ font-size: 15px;
+ font-weight: 600;
+ color: rgb(17, 17, 17);
+ z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  background-color: red;
+  background: radial-gradient(#f3eae2, #efd5c5);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.text {
+  position: absolute;
+  transform: translate(-51%, -50%);
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  word-spacing: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 105px;
+  font-weight: 800;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url(https://images.unsplash.com/photo-1503327431567-3ab5e6e79140?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+  background-position: 50%, 50%;
+}
+
+.a-man {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -33%);
+  overflow: hidden;
+}
+
+.macro-circle {
+  position: absolute;
+  top: -60px;
+  left: -75px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.large-cap {
+  font-size: 300px;
+  color: #ffffff;
+  position: absolute;
+  font-weight: 700;
+  top: -9%;
+  right: 0;
+  transform: rotate(-90deg);
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+
+.lower-right {
+    position: absolute;
+    bottom: 50px;
+    right: -70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+  }
+
+  .music-lover {
+    position: absolute;
+    bottom: 70px;
+    right: 42px;
+    border: none;
+    padding: 6px 6px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+  }
+
+  .icons-right  {
+    position: absolute;
+    top: 325px;
+    right: 50px;
+    display: grid;
+  }
+
+  .icons-right img {
+    height: 21px;
+    margin: 4px 0;
+  }
+
+  .right-line {
+    width: 1px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    bottom: 214px;
+    right: 60px;
+  }
+
+  .music {
+    position: absolute;
+    bottom: 120px;
+    right: 53px;
+    writing-mode:vertical-rl;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .rectangle {
+    width: 390px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    bottom: -30px;
+    left: -175px;
+    transform: rotate(60deg);
+    opacity: 0.7;
+  }
+
+.arrows {
+    display: grid;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+   
+}
+
+.arrows button {
+    padding: 4px;
+     border-radius: 50%;
+     border: none;
+     background-color: antiquewhite;
+     margin: 5px 0;
+}
+.arrows .down {
+    background-color: white;
+}
+
+
+.left-mlline {
+    width: 1.5px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    top: 374px;
+    left: 50px;
+}
+
+.date {
+    writing-mode: vertical-lr;
+     position: absolute;
+    top: 318px;
+    left: 45px;
+}
+
+.music-library {
+    position: absolute;
+    height: 130px;
+    top: 5px;
+    left: -28px;
+}
+
+
